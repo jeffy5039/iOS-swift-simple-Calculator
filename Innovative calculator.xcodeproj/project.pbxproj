@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EB1A79801A24C7EE00A5903A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A797F1A24C7EE00A5903A /* AppDelegate.swift */; };
-		EB1A79821A24C7EE00A5903A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79811A24C7EE00A5903A /* FirstViewController.swift */; };
-		EB1A79841A24C7EE00A5903A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79831A24C7EE00A5903A /* SecondViewController.swift */; };
 		EB1A79871A24C7EE00A5903A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1A79851A24C7EE00A5903A /* Main.storyboard */; };
 		EB1A79891A24C7EE00A5903A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1A79881A24C7EE00A5903A /* Images.xcassets */; };
 		EB1A798C1A24C7EE00A5903A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1A798A1A24C7EE00A5903A /* LaunchScreen.xib */; };
 		EB1A79981A24C7EE00A5903A /* Innovative_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79971A24C7EE00A5903A /* Innovative_calculatorTests.swift */; };
+		EB1A79A21A24CE8400A5903A /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79A11A24CE8400A5903A /* SubtractionViewController.swift */; };
+		EB1A79A41A24CEAC00A5903A /* DivisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79A31A24CEAC00A5903A /* DivisionViewController.swift */; };
+		EB1A79A61A24CF2B00A5903A /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79A51A24CF2B00A5903A /* AdditionViewController.swift */; };
+		EB1A79A81A24CF4F00A5903A /* MultiplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A79A71A24CF4F00A5903A /* MultiplicationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +32,16 @@
 		EB1A797A1A24C7EE00A5903A /* Innovative calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Innovative calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1A797E1A24C7EE00A5903A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB1A797F1A24C7EE00A5903A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB1A79811A24C7EE00A5903A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EB1A79831A24C7EE00A5903A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		EB1A79861A24C7EE00A5903A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB1A79881A24C7EE00A5903A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB1A798B1A24C7EE00A5903A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EB1A79911A24C7EE00A5903A /* Innovative calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Innovative calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1A79961A24C7EE00A5903A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB1A79971A24C7EE00A5903A /* Innovative_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Innovative_calculatorTests.swift; sourceTree = "<group>"; };
+		EB1A79A11A24CE8400A5903A /* SubtractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
+		EB1A79A31A24CEAC00A5903A /* DivisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisionViewController.swift; sourceTree = "<group>"; };
+		EB1A79A51A24CF2B00A5903A /* AdditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdditionViewController.swift; path = ../AdditionViewController.swift; sourceTree = "<group>"; };
+		EB1A79A71A24CF4F00A5903A /* MultiplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				EB1A797F1A24C7EE00A5903A /* AppDelegate.swift */,
-				EB1A79811A24C7EE00A5903A /* FirstViewController.swift */,
-				EB1A79831A24C7EE00A5903A /* SecondViewController.swift */,
+				EB1A79A51A24CF2B00A5903A /* AdditionViewController.swift */,
+				EB1A79A11A24CE8400A5903A /* SubtractionViewController.swift */,
+				EB1A79A71A24CF4F00A5903A /* MultiplicationViewController.swift */,
+				EB1A79A31A24CEAC00A5903A /* DivisionViewController.swift */,
 				EB1A79851A24C7EE00A5903A /* Main.storyboard */,
 				EB1A79881A24C7EE00A5903A /* Images.xcassets */,
 				EB1A798A1A24C7EE00A5903A /* LaunchScreen.xib */,
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1A79841A24C7EE00A5903A /* SecondViewController.swift in Sources */,
+				EB1A79A41A24CEAC00A5903A /* DivisionViewController.swift in Sources */,
 				EB1A79801A24C7EE00A5903A /* AppDelegate.swift in Sources */,
-				EB1A79821A24C7EE00A5903A /* FirstViewController.swift in Sources */,
+				EB1A79A61A24CF2B00A5903A /* AdditionViewController.swift in Sources */,
+				EB1A79A21A24CE8400A5903A /* SubtractionViewController.swift in Sources */,
+				EB1A79A81A24CF4F00A5903A /* MultiplicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
